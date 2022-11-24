@@ -34,6 +34,7 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.3px;
+  border-radius: 5px;
 }
 
 .defaut-btn {
@@ -228,6 +229,9 @@
   color: #737B7D;
   margin-bottom: 56px;
 }
+.app-topic__item-img {
+  border-radius: 5px;
+}
 .app-topic__item:nth-child(1) {
   margin-right: 30px;
 }
@@ -245,6 +249,7 @@
   margin-right: 24px;
   width: 377px;
   padding-left: 16px;
+  border-radius: 5px;
 }
 .app-topic__ship {
   display: flex;
@@ -264,13 +269,8 @@
 .app-topic__ship img {
   width: 32px;
   height: 32px;
-}
-.app-topic__ship span {
-  display: block;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 85px;
+  border-radius: 5px;
+  margin-bottom: 16px;
 }
 .app-other {
   margin-top: 86px;
@@ -285,6 +285,7 @@
   margin-bottom: 32px;
   width: 255px;
   height: 260px;
+  border-radius: 5px;
 }
 .app-other__item-title {
   margin-bottom: 12px;

@@ -143,16 +143,24 @@
     width: 24px;
     height: 24px;
   }
+  .app-topic__ship span {
+    width: 85px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
   .app-other {
     margin-top: 24px;
   }
   .app-other__item {
-    margin-right: 12px;
+    margin-right: 0;
+    padding-right: 12px;
   }
   .app-other__item-img {
     margin-bottom: 24px;
-    width: 82.5px;
-    height: auto;
+    width: 100%;
+    height: 81.5px;
   }
   .app-other__item-title {
     margin-bottom: 12px;
@@ -167,5 +175,8 @@
     overflow: hidden;
     white-space: nowrap;
     margin-bottom: 24px;
+  }
+  .app-other__item:last-child {
+    padding-right: 0;
   }
 }/*# sourceMappingURL=respontive.css.map */

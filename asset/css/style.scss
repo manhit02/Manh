@@ -36,6 +36,7 @@ $max-width:1440px;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.3px;
+    border-radius: 5px;
 }
 
 .defaut-btn {
@@ -229,6 +230,9 @@ $max-width:1440px;
                 color: #737B7D;
                 margin-bottom: 56px;
             }
+            &-img {
+                border-radius: 5px;
+            }
         }
         &__item:nth-child(1) {
             margin-right: 30px;
@@ -247,6 +251,7 @@ $max-width:1440px;
                     margin-right: 24px;
                     width: 377px;
                     padding-left: 16px;
+                    border-radius: 5px;
                 }
             }
         }
@@ -267,13 +272,8 @@ $max-width:1440px;
             img {
                 width: 32px;
                 height: 32px;
-            }
-            span {
-                display: block;
-                text-overflow: ellipsis;
-                overflow: hidden;
-                white-space: nowrap;
-                width: 85px;
+                border-radius: 5px;
+                margin-bottom: 16px;
             }
         }
     }
@@ -288,6 +288,7 @@ $max-width:1440px;
                 margin-bottom: 32px;
                 width: 255px;
                 height: 260px;
+                border-radius: 5px;
             }
             &-title {
                 margin-bottom: 12px;
